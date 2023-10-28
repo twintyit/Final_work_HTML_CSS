@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <input type="checkbox" id="menu-button">
+        <label for="left-panel" id="menu-icon"><i class="fa-solid fa-bars"></i></label>
+
+        <div class="left-panel">
+
+            <h2 class="company">Company</h2>
+            <hr>
+            <ul class="menu">
+                <li class="item active" data-target="content1" onclick="closeMenu()">
+                    <img src="./icons/dashboard_gray.svg" alt="">
+                    <p>Dashboard</p>
+                </li>
+
+                <li class="item" data-target="content2" onclick="closeMenu()">
+                    <img src="./icons/account_gray.svg" alt="">
+                    <p>User Profile</p>
+                </li>
+
+                <li class="item">
+                    <img src="./icons/map_gray.svg" alt="">
+                    <P>Lorem</p>
+                </li>
+
+                <li class="item">
+                    <img src="./icons/notify_gray.svg" alt="">
+                    <p>Lorem</p>
+                </li>
+
+                <li class="item">
+                    <img src="./icons/support_gray.svg" alt="">
+                    <p>Lorem</p>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="conteiner">
+
+            <div class="contents" id="content1">
+
+                <h2 class="dashboard">Dashboard</h2>
+                
+                <div class="contents-s">
+
+                    <div class="content-s">
+                        <div class="top-s">
+                            <img class="image-s" src="./icons/data_white.svg" alt="">
+
+                            <div>
+                                <p>Lorem, ipsum.</p>
+                                <h2>49/50 GB</h2>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="bottom">
+
+                            <img class="icons" src="./icons/alert.png" alt="">
+                            <p>Lorem, ipsum dolor...</p>
+
+                        </div>
+                    </div>
+
+                    <div class="content-s">
+                        <div class="top-s">
+                            <img class="image-s" src="./icons/shop_white.svg" alt="">
+                            <div>
+                                <p>Lorem</p>
+                                <h2>$ 34,245</h2>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="bottom">
+
+                            <img class="icons" src="./icons//calendar.png" alt="">
+                            <p>Lorem ipsum dolor</p>
+
+                        </div>
+                    </div>
+
+                    <div class="content-s">
+                        <div class="top-s">
+                            <img class="image-s" src="./icons/tag_white.svg" alt="">
+                            <div>
+                                <p>Lorem ipsum</p>
+                                <h2>75</h2>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="bottom">
+                            <img class="icons" src="./icons/down.png" alt="">
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+
+                    <div class="content-s">
+                        <div class="top-s">
+                            <img class="image-s" src="./icons/paperplane_white.svg" alt="">
+                            <div>
+                                <p>Lorem</p>
+                                <h2>+245</h2>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="bottom">
+                            <img class="icons" src="./icons/time.png" alt="">
+                            <p>Lorem ipsum</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contents-m">
+
+                    <div class="content-m">
+                        <div class="conteiner-m">
+                            <div class="top-m">
+                                <img class="image-m" src="./icons/graphics.svg" alt="">
+
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem 55% dolor sit amet</p>
+                            </div>
+
+                            <hr>
+
+                            <div class="bottom">
+                                <img class="icons" src="./icons/calendar.png" alt="">
+                                <p>Lorem dolor sit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-m">
+                        <div class="conteiner-m">
+                            <img class="image-m" src="./icons/graphics.svg" alt="">
+
+                            <div class="top-m">
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem 55% dolor sit amet</p>
+                            </div>
+
+                            <hr>
+
+                            <div class="bottom">
+                                <img class="icons" src="./icons/time.png" alt="">
+                                <p>Lorem dolor sit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-m">
+                        <div class="conteiner-m">
+                            <img class="image-m" src="./icons/graphics.svg" alt="">
+
+                            <div class="top-m">
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem 55% dolor sit amet</p>
+                            </div>
+
+                            <hr>
+
+                            <div class="bottom">
+                                <img class="icons" src="./icons/time.png" alt="">
+                                <p>Lorem dolor sit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contents-l">
+
+                    <div class="content-l">
+
+                        <div class="top-l">
+                            <p class="tasks">Tasks:</p>
+                            <div>
+                                <img src="./icons/bug.svg" alt="">
+                                <a>Bugs</a>
+                            </div>
+                            <div>
+                                <img src="./icons/web.svg" alt="">
+                                <a>Website</a>
+                            </div>
+                            <div>
+                                <img src="./icons/cloud.svg" alt="">
+                                <a>Server</a>
+                            </div>
+                        </div>
+
+                        <div class="rows-2">
+
+                            <div class="row">
+                                <img src="./icons/square-check-regular.svg" alt="">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet.elit.
+                                    Non,
+                                    magni! Lorem ipsum dolor sit amet. </p>
+                                <img src="./icons/edit.png" alt="">
+                                <img src="./icons/remove.png" alt="">
+                            </div>
+
+                            <hr>
+                            <div class="row">
+                                <img src="./icons/square-check-regular.svg" alt="">
+                                <p>Lorem ipsum, dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusamus, dicta?consectetur adipisicing elit. Non, magni!</p>
+                                <img src="./icons/edit.png" alt="">
+                                <img src="./icons/remove.png" alt="">
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <img src="./icons/square-check-regular.svg" alt="">
+                                <p>Lorem ipsum, dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam, nam! amet consectetur adipisicing elit. Non, magni!</p>
+                                <img src="./icons/edit.png" alt="">
+                                <img src="./icons/remove.png" alt="">
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <img src="./icons/square-check-regular.svg" alt="">
+                                <p>Lorem ipsum, dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Tenetur, eaque? consectetur adipisicing elit. Non, magni!</p>
+                                <img src="./icons/edit.png" alt="">
+                                <img src="./icons/remove.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-l">
+
+                        <div class="top-l-2">
+                            <h3>Lorem, ipsum</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+                        </div>
+
+                        <table class="employees">
+                            <tr>
+                                <td>Id</td>
+                                <td>Name</td>
+                                <td>Salary</td>
+                                <td>Country</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Lorem, ipsum.</td>
+                                <td>1111</td>
+                                <td>Lorem</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Lorem, ipsum.</td>
+                                <td>3333</td>
+                                <td>Lorem</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Lorem, ipsum.</td>
+                                <td>1234</td>
+                                <td>Lorem</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Lorem, ipsum.</td>
+                                <td>1111</td>
+                                <td>Lorem</td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contents" id="content2">
+
+                <h2 class="user-profile">User Profile</h2>
+
+                <div class="conteiner-content-2">
+
+                    <div class="form-container">
+                        <div class="top-form">
+                            <h3>Edit Profile</h3>
+                            <p>Lorem, ipsum dolor</p>
+                        </div>
+
+                        <div class="form">
+                            <div>
+                                <label for="inputField">Company</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">Username</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">Email addres</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">First Name</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">Last name</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">Address</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">City</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">Country</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">Postal code</label>
+                                <input type="text" id="inputField">
+                            </div>
+
+                            <div>
+                                <label for="inputField">About me</label>
+                                <input type="text" id="inputField">
+                            </div>
+                        </div>
+
+                        <div class="button-update-profile">
+                            <p>UPDATE PROFILE</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="user">
+                        <img src="./icons/800px-Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi.jpg" alt="">
+                        <p class="ceo">CEO / CE-FOUNDER</p>
+                        <h3 class="fio"> Alec Thompson</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum similique
+                            numquam, natus sapiente velit inventore aliquid consequuntur dignissimos atque
+                            voluptates
+                            quas facere soluta? Voluptatum corrupti molestias, praesentium at odio magni dolores
+                            incidunt reiciendis atque odit quia eveniet quisquam pariatur, iusto dignissimos? Rem,
+                            perspiciatis quasi accusamus soluta vero hic minima!</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="footer">
+                <div class="buttons">
+                    <a href="">Lorem</a>
+                    <a href="">Obcaecati</a>
+                    <a href="">Fuga</a>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0bde12d2dd.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
