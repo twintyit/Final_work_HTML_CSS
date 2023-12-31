@@ -9,6 +9,9 @@
     --bacground-main: rgba(234, 234, 234, 1.00);
     --bacground-left-panel: rgba(246, 246, 246, 1.00);
 
+    /* Добавил зеленый цвет */
+    --bacground-buttons: rgb(41, 181, 7);
+
 }
 
 * {
@@ -89,7 +92,8 @@
 }
 
 .item.active {
-    background: var(--color-rose);
+    /* Активная кнопка теперь зеленая */
+    background: var(--bacground-buttons);
     color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -651,5 +655,6 @@
 .buttons a {
     padding: 10px;
     font-weight: 600;
-    color: black;
+    /* Крачнім сделал надпись внизу */
+    color: rgb(254, 0, 0); 
 }
